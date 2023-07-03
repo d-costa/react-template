@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "https://d-costa.github.io/react-template/pr-preview/pr-3/static/css/main.b8ea19cf.css",
-    "main.js": "https://d-costa.github.io/react-template/pr-preview/pr-3/static/js/main.706f478a.js",
-    "static/js/787.fa3c4679.chunk.js": "https://d-costa.github.io/react-template/pr-preview/pr-3/static/js/787.fa3c4679.chunk.js",
-    "index.html": "https://d-costa.github.io/react-template/pr-preview/pr-3/index.html",
-    "main.b8ea19cf.css.map": "https://d-costa.github.io/react-template/pr-preview/pr-3/static/css/main.b8ea19cf.css.map",
-    "main.706f478a.js.map": "https://d-costa.github.io/react-template/pr-preview/pr-3/static/js/main.706f478a.js.map",
-    "787.fa3c4679.chunk.js.map": "https://d-costa.github.io/react-template/pr-preview/pr-3/static/js/787.fa3c4679.chunk.js.map"
+    "main.css": "/react-template/static/css/main.b8ea19cf.css",
+    "main.js": "/react-template/static/js/main.6b97809d.js",
+    "static/js/787.fa3c4679.chunk.js": "/react-template/static/js/787.fa3c4679.chunk.js",
+    "index.html": "/react-template/index.html",
+    "main.b8ea19cf.css.map": "/react-template/static/css/main.b8ea19cf.css.map",
+    "main.6b97809d.js.map": "/react-template/static/js/main.6b97809d.js.map",
+    "787.fa3c4679.chunk.js.map": "/react-template/static/js/787.fa3c4679.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8ea19cf.css",
-    "static/js/main.706f478a.js"
+    "static/js/main.6b97809d.js"
   ]
 }
