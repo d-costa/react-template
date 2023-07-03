@@ -7,8 +7,7 @@ import {
 } from "@mui/material";
 
 function Body() {
-  const [something, setSomething] = useState("");
-  setSomething("Hello World");
+  const [something] = useState("Hello World");
 
   return (
     <Grid container className="main-paper">
