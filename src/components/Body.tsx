@@ -5,7 +5,6 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
-// import Latex from "react-latex-next";
 
 function Body() {
   const [something, setSomething] = useState("Hello World");
