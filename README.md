@@ -2,7 +2,7 @@
 
 ## Usage
 
-- Replace all occurrences of `project-name`
+- Replace all occurrences of `react-template` with your project name
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

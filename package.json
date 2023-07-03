@@ -1,6 +1,6 @@
 {
-  "homepage": "https://d-costa.github.io/project-name",
-  "name": "project-name",
+  "homepage": "https://d-costa.github.io/react-template",
+  "name": "react-template",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
