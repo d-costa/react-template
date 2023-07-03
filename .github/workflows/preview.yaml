@@ -12,15 +12,23 @@ permissions:
   contents: write
   pull-requests: write
 
-concurrency: preview-${{ github.ref }}
+concurrency: pages-${{ github.ref }}
 
 jobs:
   deploy-preview:
     runs-on: ubuntu-20.04
 
+    env:
+        PR_NUMBER: ${{ github.event.number }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
+      - name: Set public url
+        run: echo "PUBLIC_URL=$(jq -r '.homepage + "/pr-preview/pr-" + env.PR_NUMBER' package.json)" >> $GITHUB_ENV
+      - name: Show url
+        run: echo $PUBLIC_URL
 
       - name: Install and Build
         run: |

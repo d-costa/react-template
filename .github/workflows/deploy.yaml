@@ -7,7 +7,7 @@ on:
 permissions:
   contents: write
 
-concurrency: deploy-${{ github.ref }}
+concurrency: pages-${{ github.ref }}
 
 jobs:
   build-and-deploy:
