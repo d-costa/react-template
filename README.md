@@ -4,9 +4,35 @@
 
 - Replace all occurrences of `create-react-app-template` with your project name
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Github Actions
+
+#### Dependency review
+
+- Triggered on pull requests
+- Enforces dependency reviews on pull requests in your repository.
+- Scans for vulnerable versions of dependencies introduced through package version changes in pull requests.
+
+> The action is available for all public repositories, as well as private repositories that have GitHub Advanced Security enabled. [Source](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-dependency-review#dependency-review-enforcement)
+
+#### Deploy
+
+- Triggered on pushes to master
+- Builds, deploys, and pushes to the `gh-pages` branch
+
+#### Test
+
+- Triggered on pushes or pull requests to master
+- Builds and tests the project
+
+#### Preview
+
+- Triggered on pull requests
+- Builds and deploys the project to subfolder in the `gh-pages` branch
+- Only triggered if some files were changed (e.g. **.jsx, **.tsx, etc)
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
