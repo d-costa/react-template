@@ -13,6 +13,10 @@ on:
       - 'package.json'
       - 'package-lock.json'
       - 'tsconfig.json'
+      - '**.jsx'
+      - '**.tsx'
+      - '**.js'
+      - '**.ts'
 
 permissions:
   contents: write
