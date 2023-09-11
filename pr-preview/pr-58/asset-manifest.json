@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "https://d-costa.github.io/create-react-app-template/pr-preview/pr-58/static/css/main.b8ea19cf.css",
+    "main.js": "https://d-costa.github.io/create-react-app-template/pr-preview/pr-58/static/js/main.b1bc7cd5.js",
+    "static/js/496.adb7b00f.chunk.js": "https://d-costa.github.io/create-react-app-template/pr-preview/pr-58/static/js/496.adb7b00f.chunk.js",
+    "index.html": "https://d-costa.github.io/create-react-app-template/pr-preview/pr-58/index.html",
+    "main.b8ea19cf.css.map": "https://d-costa.github.io/create-react-app-template/pr-preview/pr-58/static/css/main.b8ea19cf.css.map",
+    "main.b1bc7cd5.js.map": "https://d-costa.github.io/create-react-app-template/pr-preview/pr-58/static/js/main.b1bc7cd5.js.map",
+    "496.adb7b00f.chunk.js.map": "https://d-costa.github.io/create-react-app-template/pr-preview/pr-58/static/js/496.adb7b00f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8ea19cf.css",
+    "static/js/main.b1bc7cd5.js"
+  ]
+}
